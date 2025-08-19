@@ -21,6 +21,8 @@ public class GitRepository {
     @Id
     private long id ;
     private String name ;
+
+    @Column(columnDefinition = "TEXT")
     private String description ;
     private String language ;
     private String owner ;
